@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo</title>
+    <script src="validaCpf.js" defer></script>
+    <script src="valida.js" defer></script>
+    <link rel="stylesheet" href="valida.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Formulário</h1>
+
+      <div class="form">
+        <form actio="/" method="POST" class="formulario">
+          <label>Nome</label>
+          <input type="text" placeholder="Digite um nome" class="nome valida" />
+          <label>Sobrenome</label>
+          <input
+            type="text"
+            placeholder="Digite um sobrenome"
+            class="sobrenome valida"
+          />
+          <label>CPF</label>
+          <input
+            type="text"
+            placeholder="Digite um cpf"
+            placeholder="Nome"
+            class="cpf valida"
+          />
+          <label>Usuário</label>
+          <input
+            type="text"
+            placeholder="Crie um usuário"
+            class="usuario valida"
+          />
+          <label>Senha</label>
+          <input
+            type="password"
+            placeholder="Crie uma senha"
+            class="senha valida"
+          />
+          <label>Repetir Senha</label>
+          <input
+            type="password"
+            placeholder="Digite novamente a senha"
+            class="repetir-senha valida"
+          />
+          <button class="btn zoom-shadow" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
